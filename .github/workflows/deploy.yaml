@@ -22,8 +22,8 @@ jobs:
     - name: Build and Push Docker image
       run: |
         IMAGE_NAME=ghcr.io/${{ github.repository }}
-        docker build -t $IMAGE_NAME:latest .
-        docker push $IMAGE_NAME:latest
+        docker build -t ghcr.io/War-83/my-node-app:latest .
+          docker push ghcr.io/War-83/my-node-app:latest
 
     - name: Set up kubectl
       run: |
