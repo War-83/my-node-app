@@ -1,1 +1,1 @@
-Demo project my-node-app
+Demo project my-node-app, CI/CD
